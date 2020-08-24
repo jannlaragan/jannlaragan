@@ -1,0 +1,112 @@
+body {
+  font-family: "Open Sans Condensed", "Arial narrow", Helvetica, sans-serif;
+  font-size: 1.2rem;
+  text-align: justify;
+  color: #f7f0e6;
+  background-color: #015075;
+}
+header {
+  display: flex;
+}
+.leftheader {
+  flex-basis: 50%;
+  text-align: left;
+  padding: 1.5rem 2rem 0 2rem;
+}
+.rightheader {
+  flex-basis: 50%;
+  text-align: right;
+  padding: 2.5rem 1.5rem 0 0;
+}
+nav ul {
+  list-style-type: none;
+}
+
+/* ALL LINK STATES */
+a:link {
+  color: #f7f0e6;
+  text-decoration: none;
+}
+a:visited {
+  color: #f7f0e6;
+}
+a:hover {
+  font-weight: bold;
+  color: #95bb9f;
+}
+a:active {
+  color: #893121;
+}
+
+/* HOME STYLESHEET */
+#homehello {
+  font-size: 200px;
+  text-align: center;
+  margin: 30rem 0 10rem;
+}
+
+/* HELLO STYLESHEET */
+#aboutme {
+  background-color: #3a7269;
+  margin: 25rem 2rem 5rem;
+  border: 1px solid #f7f0e6;
+  padding: 3rem 2.5rem;
+}
+
+/* CHLOE STYLESHEET */
+#aboutchloe {
+  margin: 1.5rem 2rem 5rem;
+  border: 1px solid #f7f0e6;
+  padding: 3rem 2.5rem;
+}
+#chloevideo {
+  margin: 0rem 2rem;
+}
+
+/* PLAY STYLESHEET */
+.playsites {
+  display: flex;
+  margin: 25rem 1rem 20rem;
+  border: none;
+}
+.miscsites {
+  flex-basis: 25%;
+  text-align: left;
+  border: none;
+}
+.websitelists {
+  list-style-type: none;
+}
+
+/* RESUME STYLESHEET */
+#contactinfo {
+  margin: 14rem 1.5rem 0 1.1rem;
+  border: none;
+  padding: 0 2rem 0 1rem;
+}
+img {
+  border: 1px solid #f7f0e6;
+}
+img.align-left {
+  float: left;
+  margin: 0 2rem 2rem 0;
+}
+.resume1 {
+  background-color: #015075;
+  margin: 1rem 2rem 3rem;
+  border: 1px solid #f7f0e6;
+  padding: 1rem 2.5rem;
+}
+.resume2 {
+  margin: 1rem 2rem 25rem;
+  border: none;
+  padding: 1rem 1.5rem;
+}
+ul {
+  list-style-type: square;
+}
+#topfont {
+  font-size: 2rem;
+  text-align: center;
+}
+
