@@ -65,8 +65,9 @@ a:active {
 
 /* PLAY STYLESHEET */
 .playsites {
+  color: #8f301d;
   display: flex;
-  margin: 25rem 1rem 20rem;
+  margin: 25rem 1rem 30rem;
   border: none;
 }
 .miscsites {
