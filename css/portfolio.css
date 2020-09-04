@@ -65,14 +65,13 @@ a:active {
 
 /* PLAY STYLESHEET */
 .playsites {
-  text-align: center;
   display: flex;
   margin: 25rem 1rem 30rem;
   border: none;
 }
 .miscsites {
   flex-basis: 33%;
-  text-align: left;
+  text-align: center;
   border: none;
 }
 .websitelists {
