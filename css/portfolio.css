@@ -68,6 +68,7 @@ a:active {
   display: flex;
   margin: 25rem 1rem 30rem;
   border: none;
+  text-align: center;
 }
 .miscsites {
   flex-basis: 33%;
