@@ -71,11 +71,9 @@ a:active {
 }
 .miscsites {
   flex-basis: 33%;
-  text-align: center;
   border: none;
 }
 .websitelists {
-  text-align: left;
   list-style-type: none;
 }
 
