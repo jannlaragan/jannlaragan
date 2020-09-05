@@ -73,10 +73,10 @@ a:active {
 .miscsites {
   flex-basis: 33%;
   border: none;
-  text-align: left;
 }
 .websitelists {
   list-style-type: none;
+  text-align: left;
 }
 
 /* RESUME STYLESHEET */
