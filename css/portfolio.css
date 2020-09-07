@@ -60,15 +60,14 @@ a:active {
   border: 1px solid #f7f0e6;
   padding: 3rem 2.5rem;
 }
-.aboutchloe {
-  flex-basis: 70%;
-  margin: 1rem 2rem 1rem;
-  border: 1px solid #f7f0e6;
-  padding: 3rem 2.5rem;
-}
-.chloevideo {
+.aboutchloe1 {
   flex-basis: 30%;
   margin: 0rem 2rem;
+}
+.aboutchloe2 {
+  flex-basis: 70%;
+  margin: 1rem 2rem 1rem;
+  padding: 3rem 2.5rem;
 }
 
 /* PLAY STYLESHEET */
