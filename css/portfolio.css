@@ -64,14 +64,20 @@ a:active {
 }
 
 /* PLAY STYLESHEET */
-.playsites {
+.playsites1 {
   display: flex;
-  margin: 25rem 1rem 30rem;
+  margin: 25rem 1rem 1rem;
+  border: none;
+  text-align: left;
+}
+.playsites2 {
+  display: flex;
+  margin: 1rem 1rem 30rem;
   border: none;
   text-align: left;
 }
 .miscsites {
-  flex-basis: 33%;
+  flex-basis: 50%;
   border: none;
 }
 .websitelists {
