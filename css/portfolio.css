@@ -42,20 +42,20 @@ a:active {
 #homehello {
   font-size: 200px;
   text-align: center;
-  margin: 30rem 0 10rem;
+  margin: 30rem 0 15rem;
 }
 
 /* HELLO STYLESHEET */
 #aboutme {
   background-color: #3a7269;
-  margin: 25rem 2rem 5rem;
+  margin: 25rem 2rem 10rem;
   border: 1px solid #f7f0e6;
   padding: 3rem 2.5rem;
 }
 
 /* CHLOE STYLESHEET */
 #aboutchloe {
-  margin: 1.5rem 2rem 5rem;
+  margin: 1.5rem 2rem 10rem;
   border: 1px solid #f7f0e6;
   padding: 3rem 2.5rem;
 }
@@ -66,13 +66,13 @@ a:active {
 /* PLAY STYLESHEET */
 .playsites1 {
   display: flex;
-  margin: 25rem 1rem 1rem;
+  margin: 15rem 1rem 1rem;
   border: none;
   text-align: left;
 }
 .playsites2 {
   display: flex;
-  margin: 1rem 1rem 35rem;
+  margin: 1rem 1rem 40rem;
   border: none;
   text-align: left;
 }
