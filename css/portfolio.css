@@ -56,7 +56,7 @@ a:active {
 /* CHLOE STYLESHEET */
 .chloelayout {
   display: flex;
-  margin: 1.5rem 2rem 10rem;
+  margin: 1rem 2rem 10rem;
   border: none;
   padding: 3rem 2.5rem;
 }
@@ -69,7 +69,7 @@ a:active {
   flex-basis: 70%;
   margin: 1rem 2rem;
   border: none;
-  padding: 3rem 2.5rem;
+  padding: 2.5rem;
 }
 
 /* PLAY STYLESHEET */
