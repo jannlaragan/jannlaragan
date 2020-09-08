@@ -113,7 +113,7 @@ img.align-left {
 }
 .resume2 {
   display: flex;
-  text-align: left;
+  text-align: center;
   margin: 1rem 2rem 25rem;
   border: none;
   padding: 1rem 1.5rem;
