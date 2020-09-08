@@ -112,9 +112,15 @@ img.align-left {
   padding: 1rem 2.5rem;
 }
 .resume2 {
+  display: flex;
+  text-align: left;
   margin: 1rem 2rem 25rem;
   border: none;
   padding: 1rem 1.5rem;
+}
+.resumepics {
+  flex-basis: 50%;
+  border: none;
 }
 ul {
   list-style-type: square;
