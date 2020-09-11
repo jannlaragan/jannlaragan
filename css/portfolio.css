@@ -39,49 +39,9 @@ a:active {
 
 /* HOME STYLESHEET */
 #aboutme {
-  background-color: #3a7269;
   margin: 25rem 2rem 10rem;
-  border: 1px solid #f7f0e6;
-  padding: 3rem 2.5rem;
-}
-
-/* CHLOE STYLESHEET */
-.chloelayout {
-  display: flex;
-  margin: 1rem 2rem 10rem;
   border: none;
   padding: 3rem 2.5rem;
-}
-.aboutchloe1 {
-  flex-basis: 30%;
-  margin: 3.5rem;
-  border: none;
-}
-.aboutchloe2 {
-  flex-basis: 70%;
-  margin: 1rem 2rem;
-  border: none;
-}
-
-/* PLAY STYLESHEET */
-.playsites1 {
-  display: flex;
-  margin: 10rem 1rem 1rem;
-  border: none;
-  text-align: center;
-}
-.playsites2 {
-  display: flex;
-  margin: 1rem 1rem 40rem;
-  border: none;
-  text-align: left;
-}
-.miscsites {
-  flex-basis: 50%;
-  border: none;
-}
-.websitelists {
-  list-style-type: none;
 }
 
 /* RESUME STYLESHEET */
@@ -122,3 +82,41 @@ ul {
   text-align: center;
 }
 
+/* PLAY STYLESHEET */
+.playsites1 {
+  display: flex;
+  margin: 10rem 1rem 1rem;
+  border: none;
+  text-align: center;
+}
+.playsites2 {
+  display: flex;
+  margin: 1rem 1rem 40rem;
+  border: none;
+  text-align: left;
+}
+.miscsites {
+  flex-basis: 50%;
+  border: none;
+}
+.websitelists {
+  list-style-type: none;
+}
+
+/* CHLOE STYLESHEET */
+.chloelayout {
+  display: flex;
+  margin: 1rem 2rem 10rem;
+  border: none;
+  padding: 3rem 2.5rem;
+}
+.aboutchloe1 {
+  flex-basis: 30%;
+  margin: 3.5rem;
+  border: none;
+}
+.aboutchloe2 {
+  flex-basis: 70%;
+  margin: 1rem 2rem;
+  border: none;
+}
