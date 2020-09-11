@@ -1,6 +1,5 @@
 body {
   font-family: "Open Sans Condensed", "Arial narrow", Helvetica, sans-serif;
-  font-size: 1.2rem;
   text-align: justify;
   color: #f7f0e6;
   background-color: #015075;
@@ -39,13 +38,6 @@ a:active {
 }
 
 /* HOME STYLESHEET */
-#homehello {
-  font-size: 200px;
-  text-align: center;
-  margin: 30rem 0 15rem;
-}
-
-/* HELLO STYLESHEET */
 #aboutme {
   background-color: #3a7269;
   margin: 25rem 2rem 10rem;
