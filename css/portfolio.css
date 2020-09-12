@@ -16,7 +16,7 @@ header {
 .rightheader {
   flex-basis: 50%;
   text-align: right;
-  margin: 2.5rem 2rem;
+  margin: 2.5rem 2.5rem;
 }
 nav ul {
   list-style-type: none;
