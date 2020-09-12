@@ -49,7 +49,7 @@ a:active {
 /* RESUME STYLESHEET */
 .resumeintro {
   display: flex;
-  margin: 10rem 1rem 0;
+  margin: 10rem 0 0 1rem;
   border: none;
 }
 .biopic {
