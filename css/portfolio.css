@@ -47,16 +47,20 @@ a:active {
 }
 
 /* RESUME STYLESHEET */
-.contactinfo {
+.resumeintro {
+  display: flex;
   margin: 14rem 1.5rem 0 1.1rem;
   border: none;
   padding: 0 2rem 0 1rem;
 }
-img {
+.biopic {
+  flex-basis: 20%;
+  margin: 0 2rem 2rem 0;
   border: 1px solid #f7f0e6;
 }
-img.align-left {
-  float: left;
+.contactinfo {
+  flex-basis: 80%;
+  text-align: left;
   margin: 0 2rem 2rem 0;
 }
 .resume1 {
