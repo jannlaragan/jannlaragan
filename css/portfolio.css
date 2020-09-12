@@ -94,13 +94,13 @@ ul {
 /* PLAY STYLESHEET */
 .playsites1 {
   display: flex;
-  margin: 10rem 2rem 1rem;
+  margin: 8rem 2rem 1rem;
   border: none;
   text-align: center;
 }
 .playsites2 {
   display: flex;
-  margin: 2rem 2rem 40rem;
+  margin: 2rem 2rem 30rem;
   border: none;
   text-align: left;
 }
