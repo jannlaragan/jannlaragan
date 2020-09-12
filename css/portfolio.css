@@ -1,6 +1,6 @@
 body {
   font-family: "Open Sans Condensed", "Arial narrow", Helvetica, sans-serif;
-  text-size: 2.5rem;
+  text-size: 3rem;
   text-align: justify;
   color: #f7f0e6;
   background-color: #015075;
@@ -49,9 +49,8 @@ a:active {
 /* RESUME STYLESHEET */
 .resumeintro {
   display: flex;
-  margin: 14rem 1.5rem 0 1.1rem;
+  margin: 10rem 2rem 3rem;
   border: none;
-  padding: 0 2rem 0 1rem;
 }
 .biopic {
   flex-basis: 20%;
