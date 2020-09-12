@@ -55,13 +55,16 @@ a:active {
 }
 .biopic {
   flex-basis: 20%;
-  margin: 0 2rem 2rem 0;
+  border: none;
+}
+.jlbiopic {
   border: 1px solid #f7f0e6;
 }
 .contactinfo {
   flex-basis: 80%;
   text-align: left;
-  margin: 0 2rem 2rem 0;
+  margin: 2rem 0 0;
+  border: none;
 }
 .resume1 {
   background-color: #015075;
