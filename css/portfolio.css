@@ -99,13 +99,13 @@ ul {
 }
 .playsites2 {
   display: flex;
-  margin: 2rem 2rem 1rem;
-  border: none;
+  margin: 1rem 2rem;
+  border: 1px solid #f7f0e6;
   text-align: center;
 }
 .playsites3 {
   display: flex;
-  margin: 2rem 2rem 30rem;
+  margin: 1rem 2rem 10rem;
   border: none;
   text-align: left;
 }
