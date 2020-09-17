@@ -95,13 +95,13 @@ ul {
   display: flex;
   margin: 8rem 2rem 1rem;
   border: 1px solid #f7f0e6;
-  text-align: justify;
+  text-align: left;
 }
 .playsites2 {
   display: flex;
   margin: 1rem 2rem;
   border: 1px solid #f7f0e6;
-  text-align: justify;
+  text-align: left;
 }
 .playsites3 {
   display: flex;
