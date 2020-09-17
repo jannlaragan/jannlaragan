@@ -95,18 +95,21 @@ ul {
   display: flex;
   margin: 8rem 2rem 1rem;
   border: 1px solid #f7f0e6;
+  padding: 3rem 2.5rem;
   text-align: left;
 }
 .playsites2 {
   display: flex;
   margin: 1rem 2rem;
   border: 1px solid #f7f0e6;
+  padding: 3rem 2.5rem;
   text-align: left;
 }
 .playsites3 {
   display: flex;
   margin: 1rem 2rem 10rem;
   border: none;
+  padding: 3rem 2.5rem;
   text-align: left;
 }
 .miscsites {
