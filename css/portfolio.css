@@ -23,11 +23,18 @@ nav ul {
 }
 
 /* ALL LINK STATES */
-a:link, a:visited {
+a:link {
   color: #f7f0e6;
   text-decoration: none;
 }
-a:focus, a:hover {
+a:visited {
+  color: #f7f0e6;
+}
+a:focus {
+  font-weight: bold;
+  color: #95bb9f;
+}
+a:hover {
   font-weight: bold;
   color: #95bb9f;
 }
