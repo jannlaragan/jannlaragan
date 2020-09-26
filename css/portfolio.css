@@ -41,16 +41,16 @@ a:active {
 /* HOME STYLESHEET */
 .aboutme {
   background-color: #409b8a;
-  margin: 25rem 2rem 10rem;
-  border: 1px solid #f7f0e6;
   padding: 3rem 2.5rem;
+  border: 1px solid #f7f0e6;
+  margin: 25rem 2rem 10rem;
 }
 
 /* RESUME STYLESHEET */
 .resumeintro {
   display: flex;
-  margin: 10rem 0 0 1rem;
   border: none;
+  margin: 10rem 0 0 1rem;
 }
 .biopic {
   flex-basis: 20%;
@@ -62,14 +62,14 @@ a:active {
 .contactinfo {
   flex-basis: 80%;
   text-align: left;
-  margin: 2rem 0 0;
   border: none;
+  margin: 2rem 0 0;
 }
 .resume1 {
   background-color: #015075;
-  margin: 1rem 2rem 3rem;
-  border: 1px solid #f7f0e6;
   padding: 1rem 2.5rem;
+  border: 1px solid #f7f0e6;
+  margin: 1rem 2rem 3rem;
 }
 ul {
   list-style-type: square;
@@ -77,9 +77,9 @@ ul {
 .resume2 {
   display: flex;
   text-align: center;
-  margin: 1rem 2rem 25rem;
-  border: none;
   padding: 1rem 1.5rem;
+  border: none;
+  margin: 1rem 2rem 25rem;
 }
 .projectpics {
   flex-basis: 50%;
@@ -93,24 +93,24 @@ ul {
 /* PLAY STYLESHEET */
 .playsites1 {
   display: flex;
-  margin: 8rem 2rem 1rem;
-  border: 1px solid #f7f0e6;
-  padding: 3rem 2.5rem;
   text-align: left;
+  padding: 3rem 2.5rem;
+  border: 1px solid #f7f0e6;
+  margin: 8rem 2rem 1rem;
 }
 .playsites2 {
   display: flex;
-  margin: 1rem 2rem;
-  border: 1px solid #f7f0e6;
-  padding: 3rem 2.5rem;
   text-align: left;
+  padding: 3rem 2.5rem;
+  border: 1px solid #f7f0e6;
+  margin: 1rem 2rem;
 }
 .playsites3 {
   display: flex;
-  margin: 1rem 2rem 10rem;
-  border: none;
-  padding: 3rem 2.5rem;
   text-align: left;
+  padding: 3rem 2.5rem;
+  border: none;
+  margin: 1rem 2rem 10rem;
 }
 .miscsites {
   flex-basis: 50%;
@@ -123,17 +123,17 @@ ul {
 /* CHLOE STYLESHEET */
 .chloelayout {
   display: flex;
-  margin: 1rem 2rem 10rem;
-  border: none;
   padding: 3rem 2.5rem;
+  border: none;
+  margin: 1rem 2rem 10rem;
 }
 .aboutchloe1 {
   flex-basis: 30%;
-  margin: 3.5rem;
   border: none;
+  margin: 3.5rem;
 }
 .aboutchloe2 {
   flex-basis: 70%;
-  margin: 1rem 2rem;
   border: none;
+  margin: 1rem 2rem;
 }
