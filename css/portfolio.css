@@ -43,7 +43,7 @@ a:active {
   background-color: #409b8a;
   padding: 2.5em 2em;
   border: 1px solid #f7f0e6;
-  margin: 20em 2em 10em;
+  margin: 20em 2em 5em;
 }
 
 /* CAREER STYLESHEET */
@@ -102,14 +102,14 @@ ul {
   text-align: left;
   padding: 2.5em 2em;
   border: 1px solid #f7f0e6;
-  margin: 1em 2em;
+  margin: 2.5em 2em;
 }
 .playsites3 {
   display: flex;
   text-align: left;
   padding: 2.5em 2em;
   border: none;
-  margin: 1em 2em 10em;
+  margin: 2.5em 2em 5em;
 }
 .miscsites {
   flex-basis: 50%;
