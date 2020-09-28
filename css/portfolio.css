@@ -63,11 +63,11 @@ a:active {
   flex-basis: 80%;
   text-align: left;
   border: none;
-  margin: 2.5em 0 0;
+  margin: 3em 0 0;
 }
 .resume1 {
   background-color: #015075;
-  padding: 2.5em 2em;
+  padding: 2em;
   border: 1px solid #f7f0e6;
   margin: 2.5em 2em;
 }
@@ -78,7 +78,7 @@ ul {
   display: flex;
   text-align: center;
   border: none;
-  margin: 1em 1em 20em;
+  margin: 0 .5em 20em;
 }
 .projectpics {
   flex-basis: 50%;
