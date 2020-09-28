@@ -78,7 +78,7 @@ ul {
   display: flex;
   text-align: center;
   border: none;
-  margin: 0 .5em 20em;
+  margin: 0 0 10em;
 }
 .projectpics {
   flex-basis: 50%;
