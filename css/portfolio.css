@@ -92,7 +92,7 @@ ul {
 /* PLAY STYLESHEET */
 #playheader {
   font-size: 15rem;
-  margin: -.5em 0 0;
+  margin: -1em 0 0;
 }
 .playsites1 {
   display: flex;
