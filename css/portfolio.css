@@ -92,11 +92,12 @@ ul {
 /* PLAY STYLESHEET */
 #playheader {
   font-size: 15rem;
-  margin: -1em 0 0;
+  margin: -.75em 0 0;
 }
 .playsites1 {
   display: flex;
   text-align: left;
+  background-color: #933320;
   padding: 2em;
   border: 1px solid #f7f0e6;
   margin: 20em 2em 0;
@@ -104,6 +105,7 @@ ul {
 .playsites2 {
   display: flex;
   text-align: left;
+  background-color: #933320;
   padding: 2em;
   border: 1px solid #f7f0e6;
   margin: 2.5em 2em;
