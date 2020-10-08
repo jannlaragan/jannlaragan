@@ -1,141 +1,137 @@
 body {
-  font-family: "Open Sans Condensed", Arial Narrow, Trebuchet MS, Helvetica, Verdana, sans-serif;
-  font-size: 1.25rem;
-  color: #f7f0e6;
-  text-align: justify;
-  background-color: #015075;
-  background-position: center center;
-  background-attachment: fixed;
-  background-size: cover;
+    font-family: "Open Sans Condensed", "Trebuchet MS", Helvetica, Verdana, sans-serif;
+    font-size: 1.25rem;
+    color: #f7f0e6;
+    text-align: justify;
+    background-color: #015075;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
 }
+
+/* HEADER & LINKS*/
 header {
-  display: flex;
+    display: flex;
 }
 .leftheader {
-  flex-basis: 50%;
-  text-align: left;
-  margin: 2em 0 0 2.5em;
+    flex-basis: 50%;
+    text-align: left;
+    margin: 2em 0 0 2.5em;
 }
 .rightheader {
-  flex-basis: 50%;
-  text-align: right;
-  margin: 2.5em;
+    flex-basis: 50%;
+    text-align: right;
+    margin: 2.5em;
 }
 nav ul {
-  list-style-type: none;
+    list-style-type: none;
 }
-
-/* ALL LINK STATES */
 a:link, a:visited {
-  color: #f7f0e6;
-  text-decoration: none;
+    color: #f7f0e6;
+    text-decoration: none;
 }
 a:focus, a:hover {
-  font-weight: bold;
-  color: #95bb9f;
+    font-weight: bold;
+    color: #95bb9f;
 }
 a:active {
-  color: #893121;
+    color: #893121;
 }
-
-/* HOME STYLESHEET */
+  
+/* INDEX */
 .aboutme {
-  background-color: #409b8a;
-  padding: 2.5em 2em;
-  border: 1px solid #f7f0e6;
-  margin: 20em 2em 5em;
+    background-color: #409b8a;
+    padding: 2.5em 2em;
+    border: 1px solid #f7f0e6;
+    margin: 20em 2em 5em;
 }
-
-/* CAREER STYLESHEET */
+  
+/* RESUME */
 .resumeintro {
-  display: flex;
-  border: none;
-  margin: 10em 1.25em 0;
+    display: flex;
+    flex-flow: row wrap;
+    border: none;
+    margin: 10em 1.25em -2em;
 }
 .biopic {
-  flex-basis: 20%;
-  border: none;
+    border: none;
 }
 .jlbiopic {
-  border: 1px solid #f7f0e6;
+    border: 1px solid #f7f0e6;
 }
 .contactinfo {
-  flex-basis: 80%;
-  text-align: left;
-  border: none;
-  margin: 3em 0 0;
+    text-align: left;
+    border: none;
+    margin: 3em 0 0;
 }
 .resume1 {
-  background-color: #015075;
-  padding: 2em;
-  border: 1px solid #f7f0e6;
-  margin: 2.5em 2em;
+    background-color: #015075;
+    padding: 1em 2em;
+    border: 1px solid #f7f0e6;
+    margin: 2.5em 2em;
 }
 ul {
-  list-style-type: square;
+    list-style-type: square;
 }
 .resume2 {
-  display: flex;
-  text-align: center;
-  border: none;
-  margin: 0 0 10em;
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+    border: none;
+    margin: 0 0 5em;
 }
 .projectpics {
-  flex-basis: 50%;
-  border: none;
+    border: none;    
 }
 .topfont {
-  font-size: 2rem;
-  text-align: center;
+    font-size: 2rem;
+    text-align: center;
 }
-
-/* PLAY STYLESHEET */
+  
+/* PLAY */
 #playheader {
-  font-size: 15rem;
-  margin: -.75em 0 0;
+    font-size: 16rem;
+    margin: -.75em 0 0;
+}
+.playsites1, .playsites2 {
+    display: flex;
+    text-align: left;
+    justify-content: space-around;
+    background-color: #933320;
+    border: 1px solid #f7f0e6;
 }
 .playsites1 {
-  display: flex;
-  text-align: left;
-  background-color: #933320;
-  padding: 2em;
-  border: 1px solid #f7f0e6;
-  margin: 20em 2em 0;
+    margin: 20em 2em 0;
 }
 .playsites2 {
-  display: flex;
-  text-align: left;
-  background-color: #933320;
-  padding: 2em;
-  border: 1px solid #f7f0e6;
-  margin: 2.5em 2em;
+    margin: 2.5em 2em;
 }
 .playsites3 {
-  display: flex;
-  border: none;
-  margin: 2.5em 2em 5em;
+    display: flex;
+    flex-flow: row wrap;
+    border: none;
+    margin: 0 2em 5em;
 }
 .miscsites {
-  flex-basis: 50%;
-  border: none;
+    border: none;
 }
 .websitelists {
-  list-style-type: none;
+    list-style-type: none;
 }
-
-/* CHLOE STYLESHEET */
+  
+/* CHLOE */
 .chloelayout {
-  display: flex;
-  border: none;
-  margin: 1em 2em 10em;
+    display: flex;
+    border: none;
+    margin: 20em 2em 5em;
 }
 .aboutchloe1 {
-  flex-basis: 30%;
-  border: none;
-  margin: 3em 1em;
+    flex-basis: 30%;
+    border: none;
+    margin: 2em 1em;
 }
 .aboutchloe2 {
-  flex-basis: 70%;
-  border: none;
-  margin: 1em 2em;
+    flex-basis: 70%;
+    border: none;
+    margin: 0 1em;
 }
