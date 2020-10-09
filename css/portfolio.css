@@ -13,7 +13,7 @@ body {
 header {
     display: flex;
     flex-flow: row wrap;
-    align-items: baseline;
+    align-items: center;
 }
 .leftheader {
     text-align: left;
