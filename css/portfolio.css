@@ -56,7 +56,7 @@ a:active {
 .biopic {
     border: none;
 }
-.jlbiopic {
+.resumepic {
     border: 1px solid #f7f0e6;
 }
 .contactinfo {
@@ -65,6 +65,7 @@ a:active {
     margin: 1em 0 0;
 }
 .resume1 {
+    text-align: left;
     background-color: #015075;
     padding: 1em 2em;
     border: 1px solid #f7f0e6;
@@ -74,14 +75,13 @@ ul {
     list-style-type: square;
 }
 .resume2 {
-    display: flex;
-    flex-flow: row wrap;
     text-align: center;
     border: none;
     margin: 0 0 5em;
 }
 .projectpics {
-    border: none;    
+    border: none;
+    margin: -1.5em 0 0;
 }
 .topfont {
     font-size: 2rem;
@@ -89,28 +89,23 @@ ul {
 }
   
 /* PLAY */
-#playheader {
+/*#playheader {
     font-size: 16rem;
     margin: -.75em 0 0;
-}
+}*/
 .playsites1, .playsites2 {
     display: flex;
     text-align: left;
+    flex-flow: row wrap;
     justify-content: space-around;
     background-color: #933320;
     border: 1px solid #f7f0e6;
 }
 .playsites1 {
-    margin: 20em 2em 0;
+    margin: 30em 2em 0;
 }
 .playsites2 {
-    margin: 2.5em 2em;
-}
-.playsites3 {
-    display: flex;
-    flex-flow: row wrap;
-    border: none;
-    margin: 0 2em 5em;
+    margin: 2.5em 2em 5em;
 }
 .miscsites {
     border: none;
