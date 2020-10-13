@@ -9,7 +9,7 @@ body {
     background-size: cover;
 }
 
-/* HEADER & LINKS*/
+/* HEADER & LINKS */
 header {
     display: flex;
     flex-flow: row wrap;
