@@ -41,35 +41,42 @@ a:active {
 /* INDEX */
 .aboutme {
     background-color: #409b8a;
-    padding: 2.5em 2em;
+    padding: 1.5em;
     border: 1px solid #f7f0e6;
-    margin: 30em 2em 5em;
+    margin: 24em .5em 5em;
 }
   
 /* RESUME */
 .resumeintro {
     display: flex;
     flex-flow: row wrap;
-    border: none;
-    margin: 10em 1.25em -2em;
+    text-align: left;
+    background-color: #015075;
+    padding: 1.5em;
+    border: 1px solid #f7f0e6;
+    margin: 24em .5em 0;
 }
 .biopic {
+    padding: 0;
     border: none;
 }
 .resumepic {
     border: 1px solid #f7f0e6;
 }
 .contactinfo {
-    text-align: left;
+    padding: 1em .5em;
     border: none;
-    margin: 1em 0 0;
+}
+.intro {
+    padding: 0;
+    border: none;
 }
 .resume1 {
     text-align: left;
     background-color: #015075;
-    padding: 1em 2em;
+    padding: 1.5em;
     border: 1px solid #f7f0e6;
-    margin: 2.5em 2em;
+    margin: 2em .5em;
 }
 ul {
     list-style-type: square;
@@ -84,7 +91,7 @@ ul {
     margin: -1.5em 0 0;
 }
 .topfont {
-    font-size: 2rem;
+    font-size: 2em;
     text-align: center;
 }
   
@@ -95,13 +102,14 @@ ul {
     flex-flow: row wrap;
     justify-content: space-around;
     background-color: #933320;
+    padding: 1.5em;
     border: 1px solid #f7f0e6;
 }
 .playsites1 {
-    margin: 30em 2em 0;
+    margin: 24em .5em 0;
 }
 .playsites2 {
-    margin: 2.5em 2em 5em;
+    margin: 2.5em .5em 5em;
 }
 .miscsites {
     border: none;
@@ -114,11 +122,11 @@ ul {
 .chloelayout {
     display: flex;
     border: none;
-    margin: 20em 2em 5em;
+    margin: 24em .5em 5em;
 }
 .aboutchloe1 {
     border: none;
-    margin: 2em 0;
+    margin: 2em .5em;
 }
 .aboutchloe2 {
     border: none;
