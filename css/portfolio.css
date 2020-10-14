@@ -96,23 +96,22 @@ ul {
 }
   
 /* PLAY */
-.playsites1, .playsites2 {
+.playsites {
     display: flex;
     text-align: left;
     flex-flow: row wrap;
-    justify-content: space-around;
     background-color: #933320;
-    padding: 1.5em;
+    padding: 1em;
+    border: 1px solid #f7f0e6;
+    margin: 24em .5em 5;
+}
+.miscsites1 {
+    text-align: left;
     border: 1px solid #f7f0e6;
 }
-.playsites1 {
-    margin: 24em .5em 0;
-}
-.playsites2 {
-    margin: 2.5em .5em 5em;
-}
-.miscsites {
-    border: none;
+.miscsites2 {
+    text-align: center;
+    border: 1px solid #f7f0e6;
 }
 .websitelists {
     list-style-type: none;
