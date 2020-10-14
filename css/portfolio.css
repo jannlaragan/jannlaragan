@@ -100,7 +100,7 @@ ul {
     display: flex;
     text-align: left;
     flex-flow: row wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: #933320;
     padding: 1em;
     border: 1px solid #f7f0e6;
