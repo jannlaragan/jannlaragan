@@ -123,7 +123,7 @@ ul {
 .chloelayout {
     display: flex;
     flex-flow: row wrap;
-    padding: 1.5em;
+    padding: .5em;
     border: none;
     margin: 24em 0 5em;
 }
