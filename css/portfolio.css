@@ -121,13 +121,20 @@ ul {
 /* CHLOE */
 .chloelayout {
     display: flex;
+    flex-flow: row wrap;
+    padding: 1.5em;
     border: none;
     margin: 24em .5em 5em;
 }
-.aboutchloe1 {
+.aboutchloe {
     border: none;
-    margin: 2em .5em;
 }
-.aboutchloe2 {
-    border: none;
+.spca {
+    list-style-type: none;
+}
+b, dt {
+    font-size: 2rem;
+}
+hr {
+    border: 1px solid #f7f0e6;
 }
