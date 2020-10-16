@@ -43,7 +43,7 @@ a:active {
     background-color: #409b8a;
     padding: 1.5em;
     border: 1px solid #f7f0e6;
-    margin: 24em .5em 5em;
+    margin: 24em 0 5em;
 }
   
 /* RESUME */
@@ -54,7 +54,7 @@ a:active {
     background-color: #015075;
     padding: 1.5em;
     border: 1px solid #f7f0e6;
-    margin: 24em .5em 0;
+    margin: 24em 0 0;
 }
 .biopic {
     padding: 0;
@@ -76,7 +76,7 @@ a:active {
     background-color: #015075;
     padding: 1.5em;
     border: 1px solid #f7f0e6;
-    margin: 2em .5em;
+    margin: 2em 0;
 }
 ul {
     list-style-type: square;
@@ -97,22 +97,25 @@ ul {
   
 /* PLAY */
 .playsites {
-    display: flex;
-    text-align: left;
-    flex-flow: row wrap;
+    display: grid;
+    grid-template-rows: min-content min-content min-content; 
+    grid-template-columns: min-content min-content;
     justify-content: space-around;
-    background-color: #933320;
-    padding: 1em;
-    border: 1px solid #f7f0e6;
-    margin: 24em .5em 5em;
+    align-content: space-around;
+    margin: 24em 0 5em;
 }
 .miscsites1 {
     text-align: left;
+    background-color: #933320;
+    padding-left: 3em;
     border: 1px solid #f7f0e6;
+    margin: .5em;
 }
 .miscsites2 {
     text-align: center;
-    border: none;
+    background-color: #933320;
+    border: 1px solid #f7f0e6;
+    margin: .5em;
 }
 .websitelists {
     list-style-type: none;
@@ -124,7 +127,7 @@ ul {
     flex-flow: row wrap;
     padding: 1.5em;
     border: none;
-    margin: 24em .5em 5em;
+    margin: 24em 0 5em;
 }
 .aboutchloe {
     border: none;
