@@ -97,11 +97,9 @@ ul {
   
 /* PLAY */
 .playsites {
-    display: grid;
-    grid-template-rows: min-content min-content min-content; 
-    grid-template-columns: min-content min-content;
+    display: flex;
+    flex-flow: row wrap;
     justify-content: space-around;
-    align-content: space-around;
     margin: 24em 0 5em;
 }
 .miscsites1 {
@@ -133,6 +131,7 @@ ul {
     border: none;
 }
 .spca {
+    text-align: left;
     list-style-type: none;
 }
 b, dt {
