@@ -49,7 +49,9 @@ a:active {
 }
   
 /* INDEX */
-.aboutme {
+.home {
+    background-color: #409b8a;
+}.aboutme {
     background-color: #409b8a;
     padding: 1.5em;
     border: 1px solid #f7f0e6;
@@ -70,6 +72,9 @@ a:active {
 }
   
 /* RESUME */
+.career {
+    background-color: #015075;
+}
 .resumeintro {
     display: flex;
     flex-flow: row wrap;
@@ -144,6 +149,9 @@ ul {
 }
   
 /* PLAY */
+.play {
+    background-color: #933320;
+}
 .playsites {
     display: flex;
     flex-flow: row wrap;
