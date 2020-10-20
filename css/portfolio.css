@@ -1,6 +1,6 @@
 body {
     font-family: "Open Sans Condensed", "Darker Grotesque", "Trebuchet MS", "Arial Narrow", Helvetica, sans-serif;
-    font-size: 1.15rem;
+    font-size: 1.2rem;
     color: #f7f0e6;
     text-align: left;
     background-color: #015075;
@@ -51,7 +51,8 @@ a:active {
 /* INDEX */
 .home {
     background-color: #409b8a;
-}.aboutme {
+}
+.aboutme {
     background-color: #409b8a;
     padding: 1.5em;
     border: 1px solid #f7f0e6;
