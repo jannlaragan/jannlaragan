@@ -1,12 +1,18 @@
 body {
-    font-family: "Open Sans Condensed", "Trebuchet MS", Helvetica, Verdana, sans-serif;
-    font-size: 1.25rem;
+    font-family: "Open Sans Condensed", "Darker Grotesque", "Trebuchet MS", "Arial Narrow", Helvetica, sans-serif;
+    font-size: 1rem;
     color: #f7f0e6;
-    text-align: justify;
+    text-align: left;
     background-color: #015075;
     background-position: center center;
     background-attachment: fixed;
     background-size: cover;
+}
+@media screen and (min-width: 1024px) {
+    body {
+        font-family: "Open Sans Condensed", "Darker Grotesque", "Trebuchet MS", "Arial Narrow", Helvetica, sans-serif;
+        font-size: 1.25rem;
+    }
 }
 
 /* HEADER & LINKS */
@@ -45,12 +51,24 @@ a:active {
     border: 1px solid #f7f0e6;
     margin: 24em 0 5em;
 }
+@media screen and (min-width: 1024px) {
+    .aboutme {
+        text-align: justify;
+        padding: 2em;
+        margin: 24em 2em 5em;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .aboutme {
+        padding: 3em;
+        margin: 24em 3em 5em;
+    }
+}
   
 /* RESUME */
 .resumeintro {
     display: flex;
     flex-flow: row wrap;
-    text-align: left;
     background-color: #015075;
     padding: 1.5em;
     border: 1px solid #f7f0e6;
@@ -72,7 +90,6 @@ a:active {
     border: none;
 }
 .resume1 {
-    text-align: left;
     background-color: #015075;
     padding: 1.5em;
     border: 1px solid #f7f0e6;
@@ -93,6 +110,28 @@ ul {
 .topfont {
     font-size: 2em;
     text-align: center;
+}
+@media screen and (min-width: 1024px) {
+    .resumeintro {
+        text-align: justify;
+        padding: 2em;
+        margin: 24em 2em 0;
+    }
+    .resume1 {
+        text-align: justify;
+        padding: 2em;
+        margin: 3em 2em;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .resumeintro {
+        padding: 3em;
+        margin: 24em 3em 0;
+    }
+    .resume1 {
+        padding: 3em;
+        margin: 3em 3em;
+    }
 }
   
 /* PLAY */
@@ -131,7 +170,6 @@ ul {
     border: none;
 }
 .spca {
-    text-align: left;
     list-style-type: none;
 }
 b, dt {
@@ -139,4 +177,11 @@ b, dt {
 }
 hr {
     border: 1px solid #f7f0e6;
+}
+@media screen and (min-width: 1024px) {
+    .chloelayout {
+        text-align: justify;
+        padding: 2em;
+        margin: 24em 2em 5em;
+    }
 }
