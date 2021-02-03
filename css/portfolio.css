@@ -1,11 +1,8 @@
 body {
     font-family: "Open Sans Condensed", "Darker Grotesque", "Trebuchet MS", "Arial Narrow", Helvetica, sans-serif;
-    font-size: 1.25rem;
+    font-size: 1rem;
     color: #f7f0e6;
     text-align: left;
-    background-position: center center;
-    background-attachment: fixed;
-    background-size: cover;
 }
 @media screen and (min-width: 1024px) {
     body {
@@ -14,7 +11,7 @@ body {
 }
 @media screen and (min-width: 1200px) {
     body {
-        font-size: 1.5rem;
+        font-size: 1.25rem
     }
 }
 
@@ -53,34 +50,34 @@ a:active {
 }
 .aboutme {
     background-color: #409b8a;
-    padding: 1.5em;
+    padding: 1em;
     border: 1px solid #f7f0e6;
-    margin: 24em 0 5em;
+    margin: 12em 0 1em;
 }
 @media screen and (min-width: 1024px) {
     .aboutme {
-        padding: 2em;
-        margin: 24em 2em 5em;
+        padding: 1.5em;
+        margin: 14em 1em 2em;
     }
 }
 @media screen and (min-width: 1200px) {
     .aboutme {
-        padding: 2.5em 3em;
-        margin: 24em 3em 5em;
+        padding: 2em;
+        margin: 16em 2em 3em;
     }
 }
   
 /* RESUME */
 .career {
-    background-color: #015075;
+    background-color: #a9c6d9;
 }
 .resumeintro {
     display: flex;
     flex-flow: row wrap;
-    background-color: #015075;
+    background-color: #5a798c;
     padding: 1em 1.5em;
     border: 1px solid #f7f0e6;
-    margin: 24em 0 0;
+    margin: 2em 0 0;
 }
 .biopic {
     padding: 0;
@@ -98,7 +95,7 @@ a:active {
     border: none;
 }
 .resume1 {
-    background-color: #015075;
+    background-color: #5a798c;
     padding: 1em 1.5em;
     border: 1px solid #f7f0e6;
     margin: 2em 0;
@@ -109,7 +106,6 @@ ul {
 .resume2 {
     text-align: center;
     border: none;
-    margin: 0 0 5em;
 }
 .projectpics {
     border: none;
@@ -124,8 +120,8 @@ ul {
         padding: 1em 0 0 1.5em;
     }
     .resumeintro {
-        padding: 1.5em 2em;
-        margin: 24em 2em 0;
+        padding: 1.5em 2.5em;
+        margin: 5em 2em 0;
     }
     .resume1 {
         padding: 1.5em 2em;
@@ -138,7 +134,7 @@ ul {
     }
     .resumeintro {
         padding: 2em 3em;
-        margin: 24em 3em 0;
+        margin: 5em 3em 0;
     }
     .resume1 {
         padding: 2em 3em;
@@ -146,6 +142,39 @@ ul {
     }
 }
   
+/* CHLOE */
+.chloe {
+    background-color: #933320;
+}
+.chloelayout {
+    display: flex;
+    flex-flow: row wrap;
+    border: none;
+    margin: 16em 0 1em;
+}
+.aboutchloe {
+    border: none;
+}
+.spca {
+    list-style-type: none;
+    border: none;
+}
+.mymutt, dt {
+    font-size: 1.5rem;
+}
+hr {
+    border: 1px solid #f7f0e6;
+}
+.mymutt {
+    text-align: center;
+    border: none;
+}
+@media screen and (min-width: 900px) {
+    .chloelayout {
+        margin: 17em 1.5em 1.5em;
+    }
+}
+
 /* PLAY */
 .play {
     background-color: #933320;
@@ -171,34 +200,4 @@ ul {
 }
 .websitelists {
     list-style-type: none;
-}
-  
-/* CHLOE */
-.chloe {
-    background-color: #933320;
-}
-.chloelayout {
-    display: flex;
-    flex-flow: row wrap;
-    padding: .5em;
-    border: none;
-    margin: 24em 0 5em;
-}
-.aboutchloe {
-    border: none;
-}
-.spca {
-    list-style-type: none;
-}
-b, dt {
-    font-size: 2rem;
-}
-hr {
-    border: 1px solid #f7f0e6;
-}
-@media screen and (min-width: 1024px) {
-    .chloelayout {
-        padding: 1.5em;
-        margin: 24em 2em 5em;
-    }
 }
